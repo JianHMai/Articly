@@ -1,4 +1,5 @@
 # Articly
+An all in one news site from popular news sources 
 
 ## Team:
 - Taimoor Hafeez
