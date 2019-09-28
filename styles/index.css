@@ -5,6 +5,10 @@ header{
     padding-bottom: 65px;
 }
 .carousel{
-    width: 30%;
     margin:auto;
+    max-width: 40%;
+}
+.img-fluid{
+    width: 40vw;
+    height: 20vw;
 }
