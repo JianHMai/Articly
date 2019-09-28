@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e52ebac-bfde-463f-a9b9-991718217f8e" name="Default Changelist" comment="" />
+    <list default="true" id="4e52ebac-bfde-463f-a9b9-991718217f8e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abcnews.html" beforeDir="false" afterPath="$PROJECT_DIR$/abcnews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbcnews.html" beforeDir="false" afterPath="$PROJECT_DIR$/bbcnews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bloomberg.html" beforeDir="false" afterPath="$PROJECT_DIR$/bloomberg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/business.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn.html" beforeDir="false" afterPath="$PROJECT_DIR$/cnn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/entertainment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foxnews.html" beforeDir="false" afterPath="$PROJECT_DIR$/foxnews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/health.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mashable.html" beforeDir="false" afterPath="$PROJECT_DIR$/mashable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/science.html" beforeDir="false" afterPath="$PROJECT_DIR$/science.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sports.html" beforeDir="false" afterPath="$PROJECT_DIR$/sports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technology.html" beforeDir="false" afterPath="$PROJECT_DIR$/technology.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/techradar.html" beforeDir="false" afterPath="$PROJECT_DIR$/techradar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thenewyorktimes.html" beforeDir="false" afterPath="$PROJECT_DIR$/thenewyorktimes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theverge.html" beforeDir="false" afterPath="$PROJECT_DIR$/theverge.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +51,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -63,7 +83,7 @@
       <updated>1569639209217</updated>
       <workItem from="1569639210386" duration="2177000" />
       <workItem from="1569648634546" duration="791000" />
-      <workItem from="1569649983987" duration="440000" />
+      <workItem from="1569649983987" duration="1972000" />
     </task>
     <task id="LOCAL-00001" summary="Create profile page">
       <created>1569650304795</created>
@@ -72,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569650304795</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update to sign out on profile page">
+      <created>1569650566524</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569650566524</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create profile page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create profile page" />
+    <MESSAGE value="Update to sign out on profile page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update to sign out on profile page" />
   </component>
 </project>
