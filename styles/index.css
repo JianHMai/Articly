@@ -1,0 +1,12 @@
+body{
+    background-color:black;
+}
+header{
+    padding-bottom: 65px;
+}
+.carousel{
+    width: 500px;
+    height: 400px;
+    length: 500px;
+    margin: auto;
+}
