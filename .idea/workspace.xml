@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e52ebac-bfde-463f-a9b9-991718217f8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/business.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/entertainment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/health.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/science.html" beforeDir="false" afterPath="$PROJECT_DIR$/science.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/sports.html" beforeDir="false" afterPath="$PROJECT_DIR$/sports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/technology.html" beforeDir="false" afterPath="$PROJECT_DIR$/technology.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news sources/abcnews.html" beforeDir="false" afterPath="$PROJECT_DIR$/abcnews.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news sources/bbcnews.html" beforeDir="false" afterPath="$PROJECT_DIR$/bbcnews.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news sources/bloomberg.html" beforeDir="false" afterPath="$PROJECT_DIR$/bloomberg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news sources/cnn.html" beforeDir="false" afterPath="$PROJECT_DIR$/cnn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news sources/foxnews.html" beforeDir="false" afterPath="$PROJECT_DIR$/foxnews.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news sources/mashable.html" beforeDir="false" afterPath="$PROJECT_DIR$/mashable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news sources/techradar.html" beforeDir="false" afterPath="$PROJECT_DIR$/techradar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news sources/thenewyorktimes.html" beforeDir="false" afterPath="$PROJECT_DIR$/thenewyorktimes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news sources/theverge.html" beforeDir="false" afterPath="$PROJECT_DIR$/theverge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news sources/thewallstreetjournal.html" beforeDir="false" afterPath="$PROJECT_DIR$/thewallstreetjournal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-    </list>
+    <list default="true" id="4e52ebac-bfde-463f-a9b9-991718217f8e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +11,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -53,6 +31,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -84,6 +63,7 @@
       <updated>1569639209217</updated>
       <workItem from="1569639210386" duration="2177000" />
       <workItem from="1569648634546" duration="791000" />
+      <workItem from="1569649983987" duration="174000" />
     </task>
     <servers />
   </component>
