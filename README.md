@@ -1,5 +1,5 @@
 # Articly
-An all in one news site from popular news sources 
+All in one news site for popular news sources.
 
 ## Team:
 - Taimoor Hafeez
