@@ -13,12 +13,3 @@
 .navbar-brand {
     font-size: 20px;
 }
-
-.center_div{
-    margin: 0 auto;
-    width:80% /* value of your choice which suits your alignment */
-}
-
-body{
-    width: 100%;
-}
