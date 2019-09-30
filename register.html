@@ -14,7 +14,7 @@
 	<div class="container center_div">
 		<H1 style="padding-top: 50px;">Articly</H1>
 		<H5>Register</H3>
-		<form style="padding-top: 50px;">
+		<form id="registerForm" style="padding-top: 50px;">
 			<div class="form-group">
 				<label for="inputEmail">Email address</label>
 				<input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
@@ -25,13 +25,13 @@
 				<input type="password" class="form-control" id="inputPassword" placeholder="Password">
 			</div>
 			<div class="form-group">
-					<label for="inputPassword">Confirm Password</label>
+					<label for="inputPasswordConfirm">Confirm Password</label>
 					<input type="passwordConfirm" class="form-control" id="inputPasswordConfirm" placeholder="Confirm Password">
 			</div>
 			<button type="submit" class="btn btn-primary">Submit</button>
 		</form>
 		<div class="login" style="padding-top: 50px; padding-bottom: 50px;">
-            <p>Don't have an Articly account?</p>
+            <p>Already have an Articly account?</p>
             <a class="btn btn-dark" href="login.html" role="button">Log In</a>
         </div>
 	</div>
@@ -66,6 +66,8 @@
 		// Initialize Firebase
 		firebase.initializeApp(firebaseConfig);
 		firebase.analytics();
+
+		const auth = firebase.auth();
 	</script>
 </body>
 </html>
