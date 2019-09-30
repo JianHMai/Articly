@@ -8,7 +8,13 @@ registerForm.addEventListener("submit", (e)=>{
     const passwordConfirm= registerForm["inputPasswordConfirm"].value;
 
     let correctPassword;
-    let emailCorrect;
+    let correctEmail;
+
+    if(email.length===0){
+        alert("Email field empty");
+        correctEmail=false;
+    }
+    else correctEmail=true;
 
     if(password.length!==passwordConfirm.length){
         alert("Password Mismatch");
@@ -18,17 +24,13 @@ registerForm.addEventListener("submit", (e)=>{
         alert("Password length must be 6 or greater");
         correctPassword=false;
     }
-
-    for(let i = 0; i<email.length; i++){
-        if(email.charAt(i)==='@'){
-            if(email.charAt(i)==='.'){
-                emailCorrect=true;
-                break;
-            }
-        }
+    else if(password.length===0){
+        alert("Password field empty");
+        correctPassword=false;
     }
-    if(emailCorrect===false){
-        alert("Invalid Email");
+    else if(passwordConfirm.length===0){
+        alert("Password confirmation field blank");
+        correctPassword=false;
     }
 
     for(let i=0; i<password.length; i++){
@@ -39,8 +41,8 @@ registerForm.addEventListener("submit", (e)=>{
         }
     }
 
-    if(correctPassword && emailCorrect){
+    if(correctPassword && correctEmail){
     // sign up user
     auth.createUserWithEmailAndPassword(email, password).then(cred => {
         alert(cred);
-    })}})
+    })}});
