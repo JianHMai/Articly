@@ -7,14 +7,13 @@ registerForm.addEventListener("submit", (e)=>{
     const password = registerForm["inputPassword"].value;
     const passwordConfirm= registerForm["inputPasswordConfirm"].value;
 
-    let correctPassword;
-    let correctEmail;
+    let correctPassword=true;
+    let correctEmail=true;
 
     if(email.length===0){
         alert("Email field empty");
         correctEmail=false;
     }
-    else correctEmail=true;
 
     if(password.length!==passwordConfirm.length){
         alert("Password Mismatch");
@@ -44,5 +43,5 @@ registerForm.addEventListener("submit", (e)=>{
     if(correctPassword && correctEmail){
     // sign up user
     auth.createUserWithEmailAndPassword(email, password).then(cred => {
-        alert(cred);
+        console.log(cred);
     })}});
