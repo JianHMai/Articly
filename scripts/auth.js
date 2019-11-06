@@ -5,14 +5,6 @@ registerForm.addEventListener("submit", (e)=>{
     // get user info
     const email = registerForm["inputEmail"].value;
     const password = registerForm["inputPassword"].value;
-<<<<<<< HEAD
-
-    // sign up user
-    auth.createUserWithEmailAndPassword(email, password).then(cred => {
-        console.log(cred);
-    })
-})
-=======
     const passwordConfirm= registerForm["inputPasswordConfirm"].value;
 
     let correctPassword=true;
@@ -53,4 +45,3 @@ registerForm.addEventListener("submit", (e)=>{
     auth.createUserWithEmailAndPassword(email, password).then(cred => {
         console.log(cred);
     })}});
->>>>>>> d37fc72d33f79bce18ddb2d46b86102fc6fd30b1
