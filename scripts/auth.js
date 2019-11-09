@@ -43,5 +43,8 @@ registerForm.addEventListener("submit", (e)=>{
     if(correctPassword && correctEmail){
     // sign up user
     auth.createUserWithEmailAndPassword(email, password).then(cred => {
-        console.log(cred);
+        alert("Account created successfully");
+        window.location.href="index.html";
+    }).catch(function (error) {
+        alert(error);
     })}});
