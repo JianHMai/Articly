@@ -11,7 +11,8 @@ All in one news site for popular news sources.
 
 ## Technologies
 - Bootstrap
-- HTML
 - CSS
 - Firebase
+- HTML
 - JavaScript
+- jQuery
