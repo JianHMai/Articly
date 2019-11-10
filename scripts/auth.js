@@ -44,7 +44,7 @@ registerForm.addEventListener("submit", (e)=>{
     // sign up user
     auth.createUserWithEmailAndPassword(email, password).then(cred => {
         alert("Account created successfully");
-        window.location.href="index.html";
+        window.location.href="login.html";
     }).catch(function (error) {
         alert(error);
     })}});
