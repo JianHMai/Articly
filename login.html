@@ -81,7 +81,7 @@
                 <label for="logInPassword">Password</label>
                 <input type="password" class="form-control" id="logInPassword" placeholder="Password">
             </div>
-            <button type="button" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
         </form>
         <div class="Register" style="padding-top: 50px; padding-bottom: 50px;">
             <p>Don't have an Articly account?</p>
@@ -89,21 +89,16 @@
         </div>
     </div>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-database.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-analytics.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-database.js"></script>
-
-<script>
-    // Your web app's Firebase configuration
+    <script>
     let firebaseConfig = {
         apiKey: "AIzaSyCSBiY8LFR9ptSs_K12S7CFFTmeC7GIFqs",
         authDomain: "articly-d38e4.firebaseapp.com",
@@ -114,9 +109,11 @@
         appId: "1:1059235149934:web:dc71f1ae7cfbbc29858e7f",
         measurementId: "G-53J84SDGFF"
     };
-    // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
-</script>
+    const auth = firebase.auth();
+
+    </script>
+    <script src="scripts/login.js"></script>
 </body>
 </html>
