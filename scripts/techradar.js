@@ -1,29 +1,29 @@
-var app = document.getElementById('root');
+let app = document.getElementById('root');
 
-var request = new XMLHttpRequest();
+let request = new XMLHttpRequest();
 request.open('GET', 'https://newsapi.org/v2/top-headlines?sources=techradar&apiKey=8e968903a7034e199d7fa5a223ccefd4', true);
 request.onload = function () {
 
   // Begin accessing JSON data here
-  var data = JSON.parse(this.response);
-  var articleList = data.articles;
+  let data = JSON.parse(this.response);
+  let articleList = data.articles;
 
   articleList.forEach(article => {
 
-    var articleTitle = document.createElement('h1')
+    let articleTitle = document.createElement('h1')
     articleTitle.textContent = article.title;
 
-    var articleDate = document.createElement('p')
+    let articleDate = document.createElement('p')
     articleDate.textContent = article.publishedAt;
 
-    var articleDescription = document.createElement('p')
+    let articleDescription = document.createElement('p')
     articleDescription.textContent = article.description;
 
-    var articleURL = document.createElement('a');
+    let articleURL = document.createElement('a');
     articleURL.textContent = 'Link to Article';
     articleURL.href = article.url;
 
-    var articleImage = document.createElement('img');
+    let articleImage = document.createElement('img');
     articleImage.src = article.urlToImage;
 
     app.appendChild(articleTitle);
@@ -33,6 +33,6 @@ request.onload = function () {
     app.appendChild(articleURL);
 
     });
-  } 
+  };
 
 request.send();

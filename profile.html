@@ -60,14 +60,12 @@
                 <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
             </form>
 
-            <!-- log in / sign out -->
             <div class="login" style="padding-right: 10px">
                 <a class="btn btn-info" href="login.html" role="button">Log In</a>
             </div>
-            <div class="signout">
-                <button class="btn btn-danger navbar-btn" role="button" id="signout">Sign Out</button>
+            <div class="register">
+                <a class="btn btn-secondary" href="register.html" role="button" id="register">Register</a>
             </div>
-
         </div>
     </nav>
 </header>
@@ -76,30 +74,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-<!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-analytics.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-database.js"></script>
-
-<script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-        apiKey: "AIzaSyCSBiY8LFR9ptSs_K12S7CFFTmeC7GIFqs",
-        authDomain: "articly-d38e4.firebaseapp.com",
-        databaseURL: "https://articly-d38e4.firebaseio.com",
-        projectId: "articly-d38e4",
-        storageBucket: "",
-        messagingSenderId: "1059235149934",
-        appId: "1:1059235149934:web:dc71f1ae7cfbbc29858e7f",
-        measurementId: "G-53J84SDGFF"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
-</script>
+<script src="scripts/firebase.js"></script>
 </body>
 </html>

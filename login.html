@@ -10,110 +10,92 @@
     <link rel="stylesheet" href="styles/navbar.css">
 </head>
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Articly</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCategories" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownCategories">
-                        <a class="dropdown-item" href="business.html">Business</a>
-                        <a class="dropdown-item" href="entertainment.html">Entertainment</a>
-                        <a class="dropdown-item" href="health.html">Health</a>
-                        <a class="dropdown-item" href="science.html">Science</a>
-                        <a class="dropdown-item" href="sports.html">Sports</a>
-                        <a class="dropdown-item" href="technology.html">Technology</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSources" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News Sources</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownSources">
-                        <a class="dropdown-item" href="abcnews.html">ABC News</a>
-                        <a class="dropdown-item" href="bbcnews.html">BBC News</a>
-                        <a class="dropdown-item" href="cnn.html">CNN</a>
-                        <a class="dropdown-item" href="foxnews.html">Fox News</a>
-                        <a class="dropdown-item" href="theGuardian.html">The Guardian</a>
-                        <a class="dropdown-item" href="mashable.html">Mashable</a>
-                        <a class="dropdown-item" href="nbcnews.html">NBC News</a>
-                        <a class="dropdown-item" href="thenewyorktimes.html">The New York Times</a>
-                        <a class="dropdown-item" href="techradar.html">TechRadar</a>
-                        <a class="dropdown-item" href="theverge.html">The Verge</a>
-                        <a class="dropdown-item" href="thewallstreetjournal.html">The Wall Street Journal</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Us</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0" style="padding-right: 10px">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-
-            <!-- log in / sign out -->
-            <div class="login" style="padding-right: 10px">
-                <a class="btn btn-info" href="login.html" role="button">Log In</a>
-            </div>
-            <div class="signout">
-                <button class="btn btn-danger navbar-btn" role="button" id="signout">Sign Out</button>
-            </div>
-
-        </div>
-    </nav>
-
-    <div class="container center_div">
-        <H1 style="padding-top: 50px;"><a href="index.html" style="color: #000000; text-decoration: none;">Articly</a></H1>
-        <H5>Log In</H5>
-        <form id="logInForm" style="padding-top: 50px;">
-            <div class="form-group">
-                <label for="logInEmail">Email address</label>
-                <input type="email" class="form-control" id="logInEmail" aria-describedby="emailHelp"
-                    placeholder="Email">
-            </div>
-            <div class="form-group">
-                <label for="logInPassword">Password</label>
-                <input type="password" class="form-control" id="logInPassword" placeholder="Password">
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Articly</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCategories" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownCategories">
+                    <a class="dropdown-item" href="business.html">Business</a>
+                    <a class="dropdown-item" href="entertainment.html">Entertainment</a>
+                    <a class="dropdown-item" href="health.html">Health</a>
+                    <a class="dropdown-item" href="science.html">Science</a>
+                    <a class="dropdown-item" href="sports.html">Sports</a>
+                    <a class="dropdown-item" href="technology.html">Technology</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSources" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News Sources</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownSources">
+                    <a class="dropdown-item" href="abcnews.html">ABC News</a>
+                    <a class="dropdown-item" href="bbcnews.html">BBC News</a>
+                    <a class="dropdown-item" href="cnn.html">CNN</a>
+                    <a class="dropdown-item" href="foxnews.html">Fox News</a>
+                    <a class="dropdown-item" href="theGuardian.html">The Guardian</a>
+                    <a class="dropdown-item" href="mashable.html">Mashable</a>
+                    <a class="dropdown-item" href="nbcnews.html">NBC News</a>
+                    <a class="dropdown-item" href="thenewyorktimes.html">The New York Times</a>
+                    <a class="dropdown-item" href="techradar.html">TechRadar</a>
+                    <a class="dropdown-item" href="theverge.html">The Verge</a>
+                    <a class="dropdown-item" href="thewallstreetjournal.html">The Wall Street Journal</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0" style="padding-right: 10px">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
         </form>
-        <div class="Register" style="padding-top: 50px; padding-bottom: 50px;">
-            <p>Don't have an Articly account?</p>
-            <a class="btn btn-dark" href="register.html" role="button">Register Here</a>
+
+        <div class="login" style="padding-right: 10px">
+            <a class="btn btn-info" href="login.html" role="button">Log In</a>
+        </div>
+        <div class="register">
+            <a class="btn btn-secondary" href="register.html" role="button" id="register">Register</a>
         </div>
     </div>
+</nav>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<div class="container center_div">
+    <H1 style="padding-top: 50px;"><a href="index.html" style="color: #000000; text-decoration: none;">Articly</a></H1>
+    <H5>Log In</H5>
+    <form id="logInForm" style="padding-top: 50px;">
+        <div class="form-group">
+            <label for="logInEmail">Email address</label>
+            <input type="email" class="form-control" id="logInEmail" aria-describedby="emailHelp"
+                   placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label for="logInPassword">Password</label>
+            <input type="password" class="form-control" id="logInPassword" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <div class="Register" style="padding-top: 50px; padding-bottom: 50px;">
+        <p>Don't have an Articly account?</p>
+        <a class="btn btn-dark" href="register.html" role="button">Register Here</a>
+    </div>
+</div>
 
-    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-analytics.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-database.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-    <script>
-    let firebaseConfig = {
-        apiKey: "AIzaSyCSBiY8LFR9ptSs_K12S7CFFTmeC7GIFqs",
-        authDomain: "articly-d38e4.firebaseapp.com",
-        databaseURL: "https://articly-d38e4.firebaseio.com",
-        projectId: "articly-d38e4",
-        storageBucket: "",
-        messagingSenderId: "1059235149934",
-        appId: "1:1059235149934:web:dc71f1ae7cfbbc29858e7f",
-        measurementId: "G-53J84SDGFF"
-    };
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
-    const auth = firebase.auth();
-
-    </script>
-    <script src="scripts/login.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-database.js"></script>
+<script src="scripts/firebase.js"></script>
+<script src="scripts/login.js"></script>
 </body>
 </html>
