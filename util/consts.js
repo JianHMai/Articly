@@ -1,0 +1,3 @@
+const CONSTANTS = {
+    NEWS_API_KEY: "8e968903a7034e199d7fa5a223ccefd4"
+};
