@@ -5,41 +5,53 @@ request.onload = function () {
     // Begin accessing JSON data here
     let data = JSON.parse(this.response);
     let articleList = data.articles;
+    let startingPoint = 0;
+
+    let container = document.createElement('div');
+    container.className = "container-responsive";
+
+    let row = document.createElement('div');
+    row.className = "row";
     articleList.forEach(article => {
-        let card = document.createElement('div');
-        card.className = "card";
-        card.style = "width:90rem;";
+        if (startingPoint > 2) {
+            let column = document.createElement('div');
+            column.className = "col-md-3";
 
-        let articleImage = document.createElement('img');
-        articleImage.src = article.urlToImage;
-        articleImage.className = 'card-img-top';
+            let card = document.createElement('div');
+            card.className = "card";
 
-        let cardBody = document.createElement('div');
-        cardBody.className = 'card-body';
+            let articleImage = document.createElement('img');
+            articleImage.src = article.urlToImage;
+            articleImage.className = "card-img-top img-fluid";
 
-        let articleTitle = document.createElement('a');
-        articleTitle.textContent = article.title;
-        articleTitle.href = article.url;
-        articleTitle.className = 'card-title';
+            let cardBody = document.createElement('div');
+            cardBody.className = 'card-block';
 
-        let articleAuthor = document.createElement('p');
-        articleAuthor.innerText = article.author;
-        articleAuthor.className = 'card-author';
+            let articleTitle = document.createElement('a');
+            articleTitle.textContent = article.title;
+            articleTitle.href = article.url;
+            articleTitle.className = 'card-title';
 
-        let articleDescription = document.createElement('p');
-        articleDescription.innerText = article.description;
-        articleDescription.className = 'card-text';
+            let articleAuthor = document.createElement('p');
+            articleAuthor.innerText = article.author;
+            articleAuthor.className = 'card-author';
 
-        cardBody.appendChild(articleTitle);
-        cardBody.appendChild(articleAuthor);
-        cardBody.appendChild(articleDescription);
-        card.appendChild(articleImage);
-        card.appendChild(cardBody);
-        cardContainer.appendChild(card);
+            let articleDescription = document.createElement('p');
+            articleDescription.innerText = article.description;
+            articleDescription.className = 'card-text';
 
-    });
+            cardBody.appendChild(articleTitle);
+            cardBody.appendChild(articleAuthor);
+            cardBody.appendChild(articleDescription);
+            card.appendChild(articleImage);
+            card.appendChild(cardBody);
+            column.appendChild(card);
+            row.appendChild(column);
+        }
+        else startingPoint++;
+        }
+    );
+    container.appendChild(row);
+    cardContainer.appendChild(container);
 };
 request.send();
-
-
-
