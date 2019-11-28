@@ -1,9 +1,7 @@
-const signout = document.querySelector('#signout');
-signout.addEventListener('click', (e) => {
-    e.preventDefault();
-    auth.signOut().then(() => {
-        console.log("user signed out");
-        alert("User signed out");
-        window.location.href="index.html";
-    })
+document.getElementById("signOutButton").addEventListener("click");
+
+firebase.auth().signOut().then(function() {
+    location.reload();
+}).catch(function(error) {
+    alert(error);
 });
