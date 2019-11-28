@@ -81,11 +81,22 @@
             </div>
 
             <div id="loggedIn" class="loggedIn" style="display: none; padding-right: 10px">
-                <a class="btn btn-danger" onclick="scripts/signout.js">Sign Out</a>
+                <button id="signOutButton" class="btn btn-danger" onclick="signOut()">Sign Out</button>
             </div>
         </div>
     </nav>
 </header>
+
+<script>
+    function signOut(){
+        firebase.auth().signOut().then(function() {
+            alert("You have signed out");
+            location.reload();
+        }).catch(function(error) {
+            alert(error);
+        });
+    }
+</script>
 
 <div id="footer" align="center">
     <a href="https://newsapi.org/">Powered by News API</a>

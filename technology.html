@@ -78,12 +78,22 @@
             </div>
 
             <div id="loggedIn" class="loggedIn" style="display: none; padding-right: 10px">
-                <a class="btn btn-danger" onclick="scripts/signout.js">Sign Out</a>
+                <button id="signOutButton" class="btn btn-danger" onclick="signOut()">Sign Out</button>
             </div>
         </div>
     </nav>
 </header>
 
+<script>
+    function signOut(){
+        firebase.auth().signOut().then(function() {
+            alert("You have signed out");
+            location.reload();
+        }).catch(function(error) {
+            alert(error);
+        });
+    }
+</script>
 <div id="root">
     <link rel="stylesheet" href="styles/articlesGeneral.css">
     <script src="scripts/technology.js"></script>
