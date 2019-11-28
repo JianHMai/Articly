@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/header.css">
+
+    <script>
+        const auth = firebase.auth();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
+    <script src="scripts/firebase.js"></script>
+    <script src="scripts/isLoggedIn.js"></script>
 </head>
 <body>
 <header>
@@ -59,11 +73,13 @@
                 </form>
             </div>
 
-            <div class="login" style="padding-right: 10px">
+            <div id="login" class="login" style="padding-right: 10px; display: none;">
                 <a class="btn btn-info" href="login.html" role="button">Log In</a>
-            </div>
-            <div class="register">
                 <a class="btn btn-secondary" href="register.html" role="button" id="register">Register</a>
+            </div>
+
+            <div id="loggedIn" class="loggedIn" style="display: none; padding-right: 10px">
+                <a class="btn btn-danger" onclick="scripts/signout.js">Sign Out</a>
             </div>
         </div>
     </nav>
@@ -77,15 +93,5 @@
 <div id="footer" align="center">
     <a href="https://newsapi.org/">Powered by News API</a>
 </div>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
-<script src="scripts/firebase.js"></script>
 </body>
 </html>
