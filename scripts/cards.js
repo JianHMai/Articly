@@ -13,42 +13,52 @@ request.onload = function () {
     let row = document.createElement('div');
     row.className = "row";
     articleList.forEach(article => {
-        if (startingPoint > 2) {
-            let column = document.createElement('div');
-            column.className = "col-md-3";
+            if (startingPoint > 2) {
+                let column = document.createElement('div');
+                column.className = "col-md-3";
 
-            let card = document.createElement('div');
-            card.className = "card";
+                let card = document.createElement('div');
+                card.className = "card";
 
-            let articleImage = document.createElement('img');
-            articleImage.src = article.urlToImage;
-            articleImage.className = "card-img-top img-fluid";
+                let articleImage = document.createElement('img');
+                articleImage.src = article.urlToImage;
+                articleImage.className = "card-img-top img-fluid";
 
-            let cardBody = document.createElement('div');
-            cardBody.className = 'card-block';
+                let cardBody = document.createElement('div');
+                cardBody.className = 'card-block';
 
-            let articleTitle = document.createElement('a');
-            articleTitle.textContent = article.title;
-            articleTitle.href = article.url;
-            articleTitle.className = 'card-title';
+                let articleTitle = document.createElement('a');
+                articleTitle.textContent = article.title;
+                articleTitle.href = article.url;
+                articleTitle.className = 'card-title';
 
-            let articleAuthor = document.createElement('p');
-            articleAuthor.innerText = article.author;
-            articleAuthor.className = 'card-author';
+                let articleAuthor = document.createElement('p');
+                articleAuthor.innerText = article.author;
+                articleAuthor.className = 'card-author';
 
-            let articleDescription = document.createElement('p');
-            articleDescription.innerText = article.description;
-            articleDescription.className = 'card-text';
+                let articleDescription = document.createElement('p');
+                articleDescription.innerText = article.description;
+                articleDescription.className = 'card-text';
 
-            cardBody.appendChild(articleTitle);
-            cardBody.appendChild(articleAuthor);
-            cardBody.appendChild(articleDescription);
-            card.appendChild(articleImage);
-            card.appendChild(cardBody);
-            column.appendChild(card);
-            row.appendChild(column);
-        }
-        else startingPoint++;
+                let save = document.createElement('button');
+                save.className = "btn btn-info mx-auto d-block";
+                save.textContent = "Save Article";
+                save.id = "saveArticle";
+                save.onclick = function () {
+                };
+
+                let br = document.createElement('br');
+
+                cardBody.appendChild(articleTitle);
+                cardBody.appendChild(articleAuthor);
+                cardBody.appendChild(articleDescription);
+                cardBody.appendChild(save);
+                cardBody.appendChild(br);
+                card.appendChild(articleImage);
+                card.appendChild(cardBody);
+                column.appendChild(card);
+                row.appendChild(column);
+            } else startingPoint++;
         }
     );
     container.appendChild(row);
