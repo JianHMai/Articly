@@ -94,7 +94,7 @@
     function signOut(){
         firebase.auth().signOut().then(function() {
             alert("You have signed out");
-            location.reload();
+            window.location.replace("index.html");
         }).catch(function(error) {
             alert(error);
         });
