@@ -59,9 +59,11 @@ request.onload = function () {
                                 imageURL: article.urlToImage
                             }).then(function () {
                                 alert("Article saved");
+                                location.reload();
                             })
                                 .catch(function (error) {
                                     alert("Error adding document: ", error);
+                                    location.reload();
                                 });
                         } else {
                             alert("You must be logged in");
