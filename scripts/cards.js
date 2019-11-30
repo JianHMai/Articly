@@ -55,8 +55,14 @@ request.onload = function () {
                                 title: article.title,
                                 author: article.author,
                                 source: article.source.name,
-                                link: article.url
+                                link: article.url,
+                                imageURL: article.urlToImage
+                            }).then(function () {
+                                alert("Article saved");
                             })
+                                .catch(function (error) {
+                                    alert("Error adding document: ", error);
+                                });
                         } else {
                             alert("You must be logged in");
                         }
