@@ -20,6 +20,9 @@ request.onload = function () {
                 let card = document.createElement('div');
                 card.className = "card";
 
+                let articleSource = document.createElement('p');
+                articleSource.textContent = article.source.name;
+
                 let articleImage = document.createElement('img');
                 articleImage.src = article.urlToImage;
                 articleImage.className = "card-img-top img-fluid";
@@ -45,10 +48,24 @@ request.onload = function () {
                 save.textContent = "Save Article";
                 save.id = "saveArticle";
                 save.onclick = function () {
+                    firebase.auth().onAuthStateChanged(function (user) {
+                        if (user) {
+                            let db = firebase.firestore();
+                            db.collection(user.uid).add({
+                                title: article.title,
+                                author: article.author,
+                                source: article.source.name,
+                                link: article.url
+                            })
+                        } else {
+                            alert("You must be logged in");
+                        }
+                    });
                 };
 
                 let br = document.createElement('br');
 
+                cardBody.appendChild(articleSource);
                 cardBody.appendChild(articleTitle);
                 cardBody.appendChild(articleAuthor);
                 cardBody.appendChild(articleDescription);
