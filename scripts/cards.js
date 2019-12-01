@@ -1,6 +1,6 @@
 cardContainer = document.getElementById("card-container");
 let request = new XMLHttpRequest();
-request.open('GET', 'https://newsapi.org/v2/top-headlines?country=us&apiKey=8e968903a7034e199d7fa5a223ccefd4');
+request.open('GET', 'https://newsapi.org/v2/top-headlines?country=us&pageSize=100&apiKey=8e968903a7034e199d7fa5a223ccefd4');
 request.onload = function () {
     // Begin accessing JSON data here
     let data = JSON.parse(this.response);
@@ -15,10 +15,11 @@ request.onload = function () {
     articleList.forEach(article => {
             if (startingPoint > 2) {
                 let column = document.createElement('div');
-                column.className = "col-md-3";
+                column.className = "col-lg-4";
 
                 let card = document.createElement('div');
-                card.className = "card";
+                card.className = "card h-100";
+                card.setAttribute('class', 'card');
 
                 let articleSource = document.createElement('p');
                 articleSource.textContent = article.source.name;
@@ -26,6 +27,7 @@ request.onload = function () {
                 let articleImage = document.createElement('img');
                 articleImage.src = article.urlToImage;
                 articleImage.className = "card-img-top img-fluid";
+                articleImage.style = "width: 40vw; height: 20vw;";
 
                 let cardBody = document.createElement('div');
                 cardBody.className = 'card-block';
@@ -45,7 +47,7 @@ request.onload = function () {
 
                 let save = document.createElement('button');
                 save.className = "btn btn-info mx-auto d-block";
-                save.textContent = "Save Article";
+                save.textContent = "Bookmark";
                 save.id = "saveArticle";
                 save.onclick = function () {
                     firebase.auth().onAuthStateChanged(function (user) {
