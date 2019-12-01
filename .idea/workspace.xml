@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3c48829-8562-483c-9dfc-2a5642417786" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cards.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1UMRbJC4dXFYOXSuTg4ajsbBWnW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3c48829-8562-483c-9dfc-2a5642417786" name="Default Changelist" comment="" />
+      <created>1575164547447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575164547447</updated>
+      <workItem from="1575164552226" duration="3998000" />
+      <workItem from="1575170351240" duration="564000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update homepage">
+      <created>1575168461735</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575168461735</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Remove profile.html on navbar">
+      <created>1575170464824</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575170464824</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update homepage" />
+    <MESSAGE value="Remove profile.html on navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove profile.html on navbar" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="667" y="224" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1575168808151">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state x="667" y="224" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.23.1680.962@0.23.1680.962" timestamp="1575168808151" />
+    <state x="551" y="102" key="CommitChangelistDialog2" timestamp="1575170464134">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="551" y="102" key="CommitChangelistDialog2/0.0.2194.1194@0.0.2194.1194" timestamp="1575170464134" />
+    <state x="422" y="105" key="CommitChangelistDialog2/0.23.1680.959@0.23.1680.959" timestamp="1575168461550" />
+    <state x="340" y="141" key="SettingsEditor" timestamp="1575168809224">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state x="340" y="141" key="SettingsEditor/0.23.1680.962@0.23.1680.962" timestamp="1575168809224" />
+    <state x="573" y="271" key="Vcs.Push.Dialog.v2" timestamp="1575170467191">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="573" y="271" key="Vcs.Push.Dialog.v2/0.0.2194.1194@0.0.2194.1194" timestamp="1575170467191" />
+    <state x="439" y="241" key="Vcs.Push.Dialog.v2/0.23.1680.959@0.23.1680.959" timestamp="1575169832793" />
+    <state x="439" y="242" key="Vcs.Push.Dialog.v2/0.23.1680.962@0.23.1680.962" timestamp="1575168902128" />
+    <state x="439" y="242" key="Vcs.Push.Dialog.v2/0.23.1680.964@0.23.1680.964" timestamp="1575168636922" />
+    <state x="517" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1575164552278">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.23.1680.959@0.23.1680.959" timestamp="1575164552278" />
+    <state x="622" y="427" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575168874465">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state x="622" y="426" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.959@0.23.1680.959" timestamp="1575168470751" />
+    <state x="622" y="427" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.962@0.23.1680.962" timestamp="1575168874465" />
+    <state x="504" y="243" width="670" height="676" key="search.everywhere.popup" timestamp="1575168627114">
+      <screen x="0" y="23" width="1680" height="964" />
+    </state>
+    <state x="504" y="243" width="670" height="676" key="search.everywhere.popup/0.23.1680.964@0.23.1680.964" timestamp="1575168627114" />
+  </component>
+</project>
