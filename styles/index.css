@@ -6,4 +6,5 @@
     margin-bottom: 20px;
     margin-left: 5px;
     margin-right: 5px;
+    height: calc(100% - 15px);
 }

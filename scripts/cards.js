@@ -18,11 +18,8 @@ request.onload = function () {
                 column.className = "col-lg-4";
 
                 let card = document.createElement('div');
-                card.className = "card";
+                card.className = "card h-100 card-body";
                 card.setAttribute('class', 'card');
-
-                let articleSource = document.createElement('p');
-                articleSource.textContent = article.source.name;
 
                 let articleImage = document.createElement('img');
                 articleImage.src = article.urlToImage;
@@ -75,7 +72,6 @@ request.onload = function () {
 
                 let br = document.createElement('br');
 
-                cardBody.appendChild(articleSource);
                 cardBody.appendChild(articleTitle);
                 cardBody.appendChild(articleAuthor);
                 cardBody.appendChild(articleDescription);
