@@ -8,7 +8,7 @@ $(document).ready(function () {
         for (let i = 0; i < 3; i++) {
             $('<div class="carousel-item"><img class="img-fluid" src="' + data.articles[i].urlToImage + '" style= ' +
                 '"width: 60vw; height: 30vw;"><div class="carousel-caption"><h5><a href=' + data.articles[i].url +
-             'style="color:red">' + data.articles[i].title + '</a></h5><p>' + data.articles[i].author +'</p></div> </div>').appendTo('.carousel-inner');
+             '>' + data.articles[i].title + '</a></h5><p>' + data.articles[i].author +'</p></div> </div>').appendTo('.carousel-inner');
             $('<li data-target="#carousel" data-slide-to="' + i + '"></li>').appendTo('.carousel-indicators');
         }
     $('.carousel-item').first().addClass('active');
