@@ -3,18 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="a3c48829-8562-483c-9dfc-2a5642417786" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UMRbJC4dXFYOXSuTg4ajsbBWnW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -49,7 +58,8 @@
       <option name="presentableId" value="Default" />
       <updated>1575164547447</updated>
       <workItem from="1575164552226" duration="3998000" />
-      <workItem from="1575170351240" duration="564000" />
+      <workItem from="1575170351240" duration="2147000" />
+      <workItem from="1575232268668" duration="7864000" />
     </task>
     <task id="LOCAL-00001" summary="Update homepage">
       <created>1575168461735</created>
@@ -119,6 +129,10 @@
     </state>
     <state x="622" y="426" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.959@0.23.1680.959" timestamp="1575168470751" />
     <state x="622" y="427" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.962@0.23.1680.962" timestamp="1575168874465" />
+    <state x="859" y="551" key="run.anything.popup" timestamp="1575240075537">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="859" y="551" key="run.anything.popup/0.0.2194.1194@0.0.2194.1194" timestamp="1575240075537" />
     <state x="504" y="243" width="670" height="676" key="search.everywhere.popup" timestamp="1575168627114">
       <screen x="0" y="23" width="1680" height="964" />
     </state>
