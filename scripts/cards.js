@@ -18,7 +18,7 @@ request.onload = function () {
                 column.className = "col-lg-4";
 
                 let card = document.createElement('div');
-                card.className = "card h-100";
+                card.className = "card";
                 card.setAttribute('class', 'card');
 
                 let articleSource = document.createElement('p');

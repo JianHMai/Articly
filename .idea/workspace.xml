@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3c48829-8562-483c-9dfc-2a5642417786" name="Default Changelist" comment="" />
+    <list default="true" id="a3c48829-8562-483c-9dfc-2a5642417786" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cards.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575164547447</updated>
       <workItem from="1575164552226" duration="3998000" />
+      <workItem from="1575170351240" duration="90000" />
     </task>
     <task id="LOCAL-00001" summary="Update homepage">
       <created>1575168461735</created>
@@ -65,7 +70,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -88,9 +95,10 @@
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state x="340" y="141" key="SettingsEditor/0.23.1680.962@0.23.1680.962" timestamp="1575168809224" />
-    <state x="439" y="241" key="Vcs.Push.Dialog.v2" timestamp="1575169832793">
-      <screen x="0" y="23" width="1680" height="959" />
+    <state x="573" y="271" key="Vcs.Push.Dialog.v2" timestamp="1575170445833">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
+    <state x="573" y="271" key="Vcs.Push.Dialog.v2/0.0.2194.1194@0.0.2194.1194" timestamp="1575170445833" />
     <state x="439" y="241" key="Vcs.Push.Dialog.v2/0.23.1680.959@0.23.1680.959" timestamp="1575169832793" />
     <state x="439" y="242" key="Vcs.Push.Dialog.v2/0.23.1680.962@0.23.1680.962" timestamp="1575168902128" />
     <state x="439" y="242" key="Vcs.Push.Dialog.v2/0.23.1680.964@0.23.1680.964" timestamp="1575168636922" />
