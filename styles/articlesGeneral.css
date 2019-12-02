@@ -4,26 +4,33 @@
     margin: 0 auto;
 }
 
-img {
+.article-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-height: 70%;
-    max-width: 70%;
+    max-width: 80%;
+    border-radius: 15px;
+    padding-bottom: 10px;
 }
 
 * {
     box-sizing: border-box
 }
 
-p {
-    padding: 0 2.5rem 2.5rem;
-    margin: 0;
+.article-date {
+    padding: 0;
+    margin: 1;
+}
+
+.article-description {
+    padding: 0;
+    margin: 1;
 }
 
 .card {
     margin: 1rem;
-    background: gray;
+    background: rgb(243, 243, 243);
     box-shadow: 2px 4px 25px rgba(122, 3, 3, 0.1);
     border-radius: 12px;
     overflow: hidden;
@@ -36,14 +43,14 @@ html {
     font-family: 'Dosis', sans-serif;
     line-height: 1.6;
     color: #666;
-    background: rgb(134, 12, 12);
+    background: rgb(255, 255, 255);
 }
 
-h1 {
+.article-title {
     text-align: center;
     padding: 1.5rem 2.5rem;
-    background-image: linear-gradient(120deg, #edfd09 0%, #ad120d 100%);
+    background-image: linear-gradient(120deg, #616160 0%, #3a3a3a 100%);
     margin: 0 0 2rem 0;
     font-size: 1.5rem;
-    color: rgb(26, 28, 179);
+    color: rgb(255, 255, 255);
 }

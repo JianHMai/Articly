@@ -18,24 +18,25 @@ request.onload = function () {
         const card = document.createElement('div');
         card.setAttribute('class', "card");
 
-        let articleTitle = document.createElement('h1');
+        let articleTitle = document.createElement('a');
         articleTitle.textContent = article.title;
+        articleTitle.className = 'article-title';
+        articleTitle.href = article.url;
 
         let articleDate = document.createElement('p');
         articleDate.textContent = article.publishedAt;
+        articleDate.className = 'article-date';
 
         let articleDescription = document.createElement('p');
         articleDescription.textContent = article.description;
+        articleDescription.className = 'article-description';
         
         let articleImage = document.createElement('img');
+        articleImage.className = 'article-image'
         if(article.urlToImage === null){
             articleImage.src = "images/noImage.png"
         }
         else articleImage.src = article.urlToImage;
-
-        let articleURL = document.createElement('a');
-        articleURL.textContent = 'Link to Article';
-        articleURL.href = article.url;
 
         container.appendChild(card);
 
@@ -43,7 +44,6 @@ request.onload = function () {
         card.appendChild(articleDate);
         card.appendChild(articleImage);
         card.appendChild(articleDescription);
-        card.appendChild(articleURL);
 
     });
 };
