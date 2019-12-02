@@ -1,11 +1,10 @@
 .carousel {
-    /* margin: auto; */
-    /* max-width: 40%; */
-    background: #343a40;
+    margin: auto;
+    max-width: 60%;
 }
-
-.img-fluid {
-    /* width: 40vw; */
-    /* height: 20vw; */
-    max-height: 500px;
+.card{
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: calc(100% - 15px);
 }

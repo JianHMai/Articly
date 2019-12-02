@@ -39,7 +39,7 @@ const searchNewsApi = async function () {
     } = myJson;
     console.log(myJson);
 
-    for (let i = 0; i < articles.length; i = i + 3) {
+    for (let i = 0; i < articles.length; i = i + 4) {
 
         let rowHTML = "<div class='row'>";
         rowHTML += (`<div class='col'>`);
