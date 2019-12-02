@@ -63,13 +63,27 @@
     </header>
 
 
-    <div>
+    <div class="container">
         <h1>THIS IS WHERE WE WILL HAVE THE Search</h1>
+        
         <form class="removeDefaultSubmit">
-            <input id="searchPageInput" class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div role="separator" class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                </div>
+                <input id="searchPageInput" class="form-control form-control-lg" type="text" placeholder="Search">
+            </div>
             <button type="submit" id="searchBtn">SEARCH!</button>
         </form>
-        <div id="searchContainer" class="container">
+        <div id="searchContainer" class="container-fluid">
 
         </div>
     </div>

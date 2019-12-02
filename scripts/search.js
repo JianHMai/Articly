@@ -1,20 +1,17 @@
-let parameters = location.search.substring(1).split("&");
-let temp = parameters[0].split("=");
-let l = unescape(temp[1]);
-let searchValue = '+';
-let str = l.replace(searchValue, "-");
+var searchQuery = new URLSearchParams(window.location.search).get('search');
 
 function createCardHTML(article) {
     const {
         title,
         content,
-        description
+        description,
+        urlToImage
     } = article;
     return (`
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 100%;">
+          <img src=${urlToImage} class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title">${title}</h5>
-            <h6 class="card-subtitle mb-2 text-muted">${description}</h6>
             <p class="card-text">${content}</p>
             <a href="#" class="card-link">Card link</a>
             <a href="#" class="card-link">Another link</a>
@@ -27,10 +24,13 @@ $(".removeDefaultSubmit").submit(function (e) {
     return false;
 });
 
-$("#searchBtn").click(async function () {
+const searchNewsApi = async function () {
     $("#searchContainer").empty();
 
-    const inputValue = $("#searchPageInput").val();
+    let inputValue = $("#searchPageInput").val();
+    if (!inputValue) {
+        inputValue = searchQuery;
+    }
     const URL = `https://newsapi.org/v2/everything?q=${inputValue}&apiKey=${CONSTANTS.NEWS_API_KEY}`;
     const response = await fetch(URL);
     const myJson = await response.json();
@@ -42,19 +42,19 @@ $("#searchBtn").click(async function () {
     for (let i = 0; i < articles.length; i = i + 3) {
 
         let rowHTML = "<div class='row'>";
-        rowHTML += (`<div class='column'>`);
+        rowHTML += (`<div class='col'>`);
         rowHTML += (createCardHTML(articles[i]));
         rowHTML += (`</div>`);
 
         if (articles[i + 1]) {
-            rowHTML += (`<div class='column'>`)
+            rowHTML += (`<div class='col'>`)
             const cardHTML = createCardHTML(articles[i + 1]);
             rowHTML += (cardHTML);
             rowHTML += (`</div>`);
         }
 
         if (articles[i + 2]) {
-            rowHTML += (`<div class='column'>`)
+            rowHTML += (`<div class='col'>`)
             const cardHTML = createCardHTML(articles[i + 2]);
             rowHTML += (cardHTML);
             rowHTML += (`</div>`);
@@ -63,4 +63,10 @@ $("#searchBtn").click(async function () {
         rowHTML += ('</div>');
         $("#searchContainer").append(rowHTML);
     }
-});
+};
+
+$("#searchBtn").click(searchNewsApi);
+
+if (searchQuery) {
+    searchNewsApi();
+}
