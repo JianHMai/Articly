@@ -12,7 +12,7 @@ $(document).ready(function () {
             if (data.articles[i].author === null) {
                 author = "";
             } else author = data.articles[i].author;
-            if (data.articles[i].urlToImage === null) {
+            if (data.articles[i].urlToImage === null || data.articles[i].urlToImage === 'null') {
                 image = "images/noImage.png"
             } else image = data.articles[i].urlToImage;
             $('<div class="carousel-item"><img class="img-fluid" src="' + image + '" style= ' +

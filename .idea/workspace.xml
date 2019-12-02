@@ -4,8 +4,10 @@
     <list default="true" id="a3c48829-8562-483c-9dfc-2a5642417786" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/science.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/science.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/welcome.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -32,6 +35,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -65,6 +69,7 @@
       <workItem from="1575243125332" duration="2356000" />
       <workItem from="1575247134495" duration="1447000" />
       <workItem from="1575260109462" duration="2268000" />
+      <workItem from="1575265492496" duration="3256000" />
     </task>
     <task id="LOCAL-00001" summary="Update homepage">
       <created>1575168461735</created>
@@ -109,6 +114,10 @@
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state x="667" y="224" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.23.1680.962@0.23.1680.962" timestamp="1575168808151" />
+    <state x="1349" y="486" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575264214803">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="1349" y="486" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2194.1194@0.0.2194.1194" timestamp="1575264214803" />
     <state x="551" y="102" key="CommitChangelistDialog2" timestamp="1575170464134">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
@@ -134,10 +143,14 @@
     </state>
     <state x="622" y="426" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.959@0.23.1680.959" timestamp="1575168470751" />
     <state x="622" y="427" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.962@0.23.1680.962" timestamp="1575168874465" />
-    <state x="859" y="551" key="run.anything.popup" timestamp="1575240075537">
+    <state x="1356" y="530" key="git4idea.merge.GitPullDialog" timestamp="1575268764739">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="859" y="551" key="run.anything.popup/0.0.2194.1194@0.0.2194.1194" timestamp="1575240075537" />
+    <state x="1356" y="530" key="git4idea.merge.GitPullDialog/0.0.2194.1194@0.0.2194.1194" timestamp="1575268764739" />
+    <state x="859" y="551" key="run.anything.popup" timestamp="1575267316422">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="859" y="551" key="run.anything.popup/0.0.2194.1194@0.0.2194.1194" timestamp="1575267316422" />
     <state x="504" y="243" width="670" height="676" key="search.everywhere.popup" timestamp="1575168627114">
       <screen x="0" y="23" width="1680" height="964" />
     </state>

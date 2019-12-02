@@ -32,7 +32,7 @@ request.onload = function () {
         articleDescription.className = 'article-description';
         
         let articleImage = document.createElement('img');
-        articleImage.className = 'article-image'
+        articleImage.className = 'article-image';
         if((article.urlToImage != 'null') && (article.urlToImage !== null)){
             articleImage.src = article.urlToImage;
         }

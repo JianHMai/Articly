@@ -22,7 +22,7 @@ request.onload = function () {
                 card.setAttribute('class', 'card');
 
                 let articleImage = document.createElement('img');
-                if(article.urlToImage === null){
+                if(article.urlToImage === null || article.urlToImage === "null"){
                     articleImage.src = "images/noImage.png"
                 }
                 else articleImage.src = article.urlToImage;
