@@ -38,12 +38,45 @@ request.onload = function () {
         }
         else articleImage.src = "images/noImage.png";
 
-    container.appendChild(card);
+        let save = document.createElement('button');
+        save.className = "btn btn-info mx-auto d-block";
+        save.textContent = "Bookmark";
+        save.id = "saveArticle";
+        save.onclick = function () {
+            firebase.auth().onAuthStateChanged(function (user) {
+                if (user) {
+                    let db = firebase.firestore();
+                    db.collection(user.uid).add({
+                        title: article.title,
+                        author: article.author,
+                        source: article.source.name,
+                        link: article.url,
+                        imageURL: article.urlToImage
+                    }).then(function () {
+                        alert("Article saved");
+                        location.reload();
+                    })
+                        .catch(function (error) {
+                            alert("Error adding document: ", error);
+                            location.reload();
+                        });
+                } else {
+                    alert("You must be logged in");
+            }
+    });
+};
 
-    card.appendChild(articleTitle);
-    card.appendChild(articleDate);
-    card.appendChild(articleImage);
-    card.appendChild(articleDescription);
+let br = document.createElement('br');
+
+
+container.appendChild(card);
+
+card.appendChild(articleTitle);
+card.appendChild(articleDate);
+card.appendChild(articleImage);
+card.appendChild(articleDescription);
+card.appendChild(save);
+card.appendChild(br);
 
 });
 };
