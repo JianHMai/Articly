@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3c48829-8562-483c-9dfc-2a5642417786" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/carousel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
       <workItem from="1575164552226" duration="3998000" />
       <workItem from="1575170351240" duration="2147000" />
       <workItem from="1575232268668" duration="8157000" />
-      <workItem from="1575243125332" duration="1511000" />
+      <workItem from="1575243125332" duration="2356000" />
     </task>
     <task id="LOCAL-00001" summary="Update homepage">
       <created>1575168461735</created>

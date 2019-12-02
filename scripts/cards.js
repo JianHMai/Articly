@@ -22,7 +22,10 @@ request.onload = function () {
                 card.setAttribute('class', 'card');
 
                 let articleImage = document.createElement('img');
-                articleImage.src = article.urlToImage;
+                if(article.urlToImage === null){
+                    articleImage.src = "images/noImage.png"
+                }
+                else articleImage.src = article.urlToImage;
                 articleImage.className = "card-img-top img-fluid";
                 articleImage.style = "width: 40vw; height: 20vw;";
 
