@@ -28,7 +28,10 @@ request.onload = function () {
         articleDescription.textContent = article.description;
         
         let articleImage = document.createElement('img');
-        articleImage.src = article.urlToImage;
+        if(article.urlToImage === null){
+            articleImage.src = "images/noImage.png"
+        }
+        else articleImage.src = article.urlToImage;
 
         let articleURL = document.createElement('a');
         articleURL.textContent = 'Link to Article';

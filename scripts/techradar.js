@@ -24,7 +24,10 @@ request.onload = function () {
     articleURL.href = article.url;
 
     let articleImage = document.createElement('img');
-    articleImage.src = article.urlToImage;
+    if(article.urlToImage === null){
+      articleImage.src = "images/noImage.png"
+    }
+    else articleImage.src = article.urlToImage;
 
     app.appendChild(articleTitle);
     app.appendChild(articleDate);

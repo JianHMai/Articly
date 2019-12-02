@@ -3,6 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="a3c48829-8562-483c-9dfc-2a5642417786" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/abcNews.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/abcNews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/associatedpress.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/associatedpress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/bbcNews.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/bbcNews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/bloomberg.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/bloomberg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/business.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/business.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cnn.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cnn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/entertainment.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/entertainment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/foxNews.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/foxNews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/health.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/health.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/mashable.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/mashable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/mostpopulararticles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/nbcNews.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/nbcNews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/science.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/science.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/sports.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/sports.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/technology.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/technology.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/techradar.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/techradar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/theNewYorkTimes.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/theNewYorkTimes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/theVerge.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/theVerge.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +78,7 @@
       <workItem from="1575170351240" duration="2147000" />
       <workItem from="1575232268668" duration="8157000" />
       <workItem from="1575243125332" duration="2356000" />
+      <workItem from="1575247134495" duration="1447000" />
     </task>
     <task id="LOCAL-00001" summary="Update homepage">
       <created>1575168461735</created>
