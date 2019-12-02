@@ -32,11 +32,11 @@ request.onload = function () {
     articleDescription.className = 'article-description';
     
     let articleImage = document.createElement('img');
-    articleImage.className = 'article-image'
-    if(article.urlToImage === null){
-        articleImage.src = "images/noImage.png"
-    }
-    else articleImage.src = article.urlToImage;
+        articleImage.className = 'article-image'
+        if((article.urlToImage != 'null') && (article.urlToImage !== null)){
+            articleImage.src = article.urlToImage;
+        }
+        else articleImage.src = "images/noImage.png";
 
     container.appendChild(card);
 
