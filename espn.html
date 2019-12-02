@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Articly - The Wall Street Journal</title>
+    <title>Articly - ESPN</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -89,11 +89,11 @@
 </header>
 
 <script>
-    function signOut() {
-        firebase.auth().signOut().then(function () {
+    function signOut(){
+        firebase.auth().signOut().then(function() {
             alert("You have signed out");
             location.reload();
-        }).catch(function (error) {
+        }).catch(function(error) {
             alert(error);
         });
     }
@@ -101,7 +101,7 @@
 
 <div id="root">
     <link rel="stylesheet" href="styles/articlesGeneral.css">
-    <script src="scripts/theWallStreetJournal.js"></script>
+    <script src="scripts/espn.js"></script>
 </div>
 
 <div id="footer" align="center">
