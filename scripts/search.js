@@ -46,7 +46,7 @@ $(document).ready(async function() {
 
 
 $("#categorySelect").change(async function() {
-    const selectedOpt = $("#categorySelect option:selected").va();
+    const selectedOpt = $("#categorySelect option:selected").val();
     const URL = `https://newsapi.org/v2/sources?apiKey=${CONSTANTS.NEWS_API_KEY}&category=${selectedOpt}`;
     const response = await fetch(URL);
     const myJson = await response.json();
@@ -91,7 +91,7 @@ const searchNewsApi = async function (argumentPassed) {
     console.log(myJson);
     let i = 0;
     while (i < articles.length) {
-        let numColumns = Math.floor(Math.random() * 4 + 2);
+        let numColumns = Math.floor(Math.random() * 5 + 3);
         let rowHTML = "<div class='row'>";
         rowHTML += (`<div class='col'>`);
         rowHTML += (createCardHTML(articles[i]));
