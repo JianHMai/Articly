@@ -7,17 +7,17 @@ let str = l.replace(searchValue, "-");
 function createCardHTML(article) {
     const {
         title,
-        content,
-        description
+        urlToImage,
+        description,
+        url,
     } = article;
     return (`
-        <div class="card" style="width: 18rem;">
+        <div class="card">
             <div class="card-body">
-            <h5 class="card-title">${title}</h5>
+            <a class="card-title" href=${url}>${title}</a>
             <h6 class="card-subtitle mb-2 text-muted">${description}</h6>
-            <p class="card-text">${content}</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <img class="card-image"style:max-height: 70%";>${urlToImage}</img>
+            <div>
             </div>
         </div>
     `);
@@ -39,7 +39,7 @@ $("#searchBtn").click(async function () {
     } = myJson;
     console.log(myJson);
 
-    for (let i = 0; i < articles.length; i = i + 3) {
+    for (let i = 0; i < articles.length; i = i + 4) {
 
         let rowHTML = "<div class='row'>";
         rowHTML += (`<div class='column'>`);
