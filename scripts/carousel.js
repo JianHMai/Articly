@@ -17,7 +17,7 @@ $(document).ready(function () {
             } else image = data.articles[i].urlToImage;
             $('<div class="carousel-item"><img class="img-fluid" src="' + image + '" style= ' +
                 '"width: 60vw; height: 30vw;"><div class="carousel-caption"><h5><a href=' + data.articles[i].url +
-                ' style = "color:black">' + data.articles[i].title + '</a></h5><p>' + author + '</p></div> </div>').appendTo('.carousel-inner');
+                ' style = "color:white">' + data.articles[i].title + '</a></h5><p>' + author + '</p></div> </div>').appendTo('.carousel-inner');
             $('<li data-target="#carousel" data-slide-to="' + i + '"></li>').appendTo('.carousel-indicators');
         }
         $('.carousel-item').first().addClass('active');
