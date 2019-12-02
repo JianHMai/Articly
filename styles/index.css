@@ -8,3 +8,7 @@
     margin-right: 5px;
     height: calc(100% - 15px);
 }
+
+body {
+    background-image: url("http://eskipaper.com/images/simple-backgrounds-12.jpg");
+  }

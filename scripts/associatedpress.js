@@ -71,9 +71,9 @@ request.onload = function () {
 
         container.appendChild(card);
 
+        card.appendChild(articleImage);
         card.appendChild(articleTitle);
         card.appendChild(articleDate);
-        card.appendChild(articleImage);
         card.appendChild(articleDescription);
         card.appendChild(save);
         card.appendChild(br);
