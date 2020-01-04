@@ -1,5 +1,5 @@
 # Articly
-All in one news site for popular news sources.
+All in one news site for popular news sources._
 Deployed Url: https://jianhmai.github.io/Articly/
 
 ## Team
