@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3c48829-8562-483c-9dfc-2a5642417786" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/scripts/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abcnews.html" beforeDir="false" afterPath="$PROJECT_DIR$/abcnews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/associatedpress.html" beforeDir="false" afterPath="$PROJECT_DIR$/associatedpress.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbcnews.html" beforeDir="false" afterPath="$PROJECT_DIR$/bbcnews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bloomberg.html" beforeDir="false" afterPath="$PROJECT_DIR$/bloomberg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/business.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn.html" beforeDir="false" afterPath="$PROJECT_DIR$/cnn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/entertainment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/espn.html" beforeDir="false" afterPath="$PROJECT_DIR$/espn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foxnews.html" beforeDir="false" afterPath="$PROJECT_DIR$/foxnews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/health.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mashable.html" beforeDir="false" afterPath="$PROJECT_DIR$/mashable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbcnews.html" beforeDir="false" afterPath="$PROJECT_DIR$/nbcnews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/science.html" beforeDir="false" afterPath="$PROJECT_DIR$/science.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sports.html" beforeDir="false" afterPath="$PROJECT_DIR$/sports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technology.html" beforeDir="false" afterPath="$PROJECT_DIR$/technology.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/techradar.html" beforeDir="false" afterPath="$PROJECT_DIR$/techradar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thenewyorktimes.html" beforeDir="false" afterPath="$PROJECT_DIR$/thenewyorktimes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theverge.html" beforeDir="false" afterPath="$PROJECT_DIR$/theverge.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +71,7 @@
       <workItem from="1575247134495" duration="1447000" />
       <workItem from="1575260109462" duration="2268000" />
       <workItem from="1575265492496" duration="3256000" />
-      <workItem from="1593646070516" duration="1349000" />
+      <workItem from="1593646070516" duration="1655000" />
     </task>
     <task id="LOCAL-00001" summary="Update homepage">
       <created>1575168461735</created>
