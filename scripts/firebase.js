@@ -3,11 +3,11 @@ let firebaseConfig = {
     authDomain: "articly-d38e4.firebaseapp.com",
     databaseURL: "https://articly-d38e4.firebaseio.com",
     projectId: "articly-d38e4",
-    storageBucket: "",
+    storageBucket: "articly-d38e4.appspot.com",
     messagingSenderId: "1059235149934",
     appId: "1:1059235149934:web:dc71f1ae7cfbbc29858e7f",
     measurementId: "G-53J84SDGFF"
 };
-
+// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
