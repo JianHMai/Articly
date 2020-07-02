@@ -1,6 +1,5 @@
 # Articly
 All in one news site for popular news sources.\
-Deployed URL: https://jianhmai.github.io/Articly/
 
 ## Team
 - Taimoor Hafeez
