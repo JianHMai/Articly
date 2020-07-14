@@ -1,5 +1,5 @@
 # Articly
-All in one news site for popular news sources.
+All in one news site for popular news sources. <br/>
 Currently only working on localhost due to API limitations.
 
 ## Team
