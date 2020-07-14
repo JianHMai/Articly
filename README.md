@@ -1,5 +1,6 @@
 # Articly
-All in one news site for popular news sources.\
+All in one news site for popular news sources.
+Currently only working on localhost due to API limitations.
 
 ## Team
 - Taimoor Hafeez
